@@ -44,6 +44,7 @@ function install_php() {
             --with-xmlrpc \
             --with-xsl \
             --with-bz2 \
+            --with-mcrypt \
             --with-gettext \
             --with-readline \
             --with-kerberos \
@@ -61,6 +62,7 @@ function install_php() {
             --enable-sockets \
             --enable-shmop \
             --enable-dba \
+            --enable-mcrypt \
             --enable-sysvsem \
             --enable-sysvshm \
             --enable-sysvmsg \
