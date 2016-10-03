@@ -41,6 +41,7 @@ function install_php() {
             --with-pdo-mysql \
             --with-pdo-pgsql \
             --with-openssl \
+            --with-mcrypt \
             --with-xmlrpc \
             --with-xsl \
             --with-bz2 \
@@ -61,7 +62,6 @@ function install_php() {
             --enable-sockets \
             --enable-shmop \
             --enable-dba \
-            --enable-mcrypt \
             --enable-sysvsem \
             --enable-sysvshm \
             --enable-sysvmsg \
