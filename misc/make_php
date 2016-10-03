@@ -44,7 +44,6 @@ function install_php() {
             --with-xmlrpc \
             --with-xsl \
             --with-bz2 \
-            --with-mcrypt \
             --with-gettext \
             --with-readline \
             --with-kerberos \
